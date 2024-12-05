@@ -1,0 +1,20 @@
+name: Privileged
+description: create an issue here. 
+body:
+  - type: markdown
+    attributes:
+      value: |
+       I thank for your interest in this project! 
+  - type: checkboxes
+    id: privileged
+    attributes:
+      label: Privileged issue
+      description: Confirm that you are allowed to create an issue here.
+      options:
+        - label: create an issue here.
+          required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Issue Content
+      description: Add the content of the issue here.
